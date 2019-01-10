@@ -1,0 +1,28 @@
+{
+  "name": "reproduce-webpack-issue",
+  "version": "0.0.1",
+  "description": "Reproduce an issue with webpack and pnpm",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@bentley/bwc": "~7.0.1",
+    "@bentley/icons-generic-webfont": "^0.0.6",
+    "@bentley/bentleyjs-core": "^0.171.0",
+    "@bentley/geometry-core": "^0.171.0",
+    "@bentley/imodeljs-i18n": "^0.171.0",
+    "@bentley/ui-core": "^0.171.0",
+    "@bentley/ui-ninezone": "^0.171.0",
+    "some-other-package": "file://./otherPackage/some-other-package-0.0.1.tgz"
+  }
+}

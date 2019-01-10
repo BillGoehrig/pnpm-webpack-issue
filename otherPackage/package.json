@@ -1,0 +1,13 @@
+{
+  "name": "some-other-package",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Reproduce an issue with webpack and pnpm",
+  "license": "MIT",
+  "dependencies": {
+    "@bentley/bwc": "~7.0.1",
+    "@bentley/icons-generic-webfont": "^0.0.6",
+    "@bentley/ui-core": "^0.171.0",
+    "@bentley/ui-ninezone": "^0.171.0"
+  }
+}
